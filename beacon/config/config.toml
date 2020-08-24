@@ -1,10 +1,10 @@
 [ethereum]
-URL = "$INFURA_BEACON_ID_WSS"
-URLRPC = "$INFURA_BEACON_ID_HTTPS"
+URL = "/mnt/data/infura-beacon-id-wss.txt"
+URLRPC = "/mnt/data/infura-beacon-id-https.txt"
 
 [ethereum.account]
-Address = "$ETH_ADDRESS"
-KeyFile = "mnt/data/keep_wallet.json"
+Address = "/mnt/data/eth-address.txt"
+KeyFile = "/mnt/data/keep_wallet.json"
 
 [ethereum.ContractAddresses]
 KeepRandomBeaconOperator = "0xf417b31104631280adF9F6828ee19985BC299fdC"

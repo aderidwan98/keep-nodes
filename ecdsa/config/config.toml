@@ -1,9 +1,9 @@
 [ethereum]
-URL = "$INFURA_ECDSA_ID_WSS"
-URLRPC = "$INFURA_ECDSA_ID_HTTPS"
+URL = "/mnt/data/infura-ecdsa-id-wss.txt"
+URLRPC = "/mnt/data/infura-ecdsa-id-https.txt"
 
 [ethereum.account]
-Address = "$ETH_ADDRESS"
+Address = "/mnt/data/eth-address.txt"
 KeyFile = "/mnt/data/keep_wallet.json"
 
 [ethereum.ContractAddresses]
