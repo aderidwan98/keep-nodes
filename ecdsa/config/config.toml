@@ -7,7 +7,7 @@ Address = "/mnt/data/eth-address.txt"
 KeyFile = "/mnt/data/keep_wallet.json"
 
 [ethereum.ContractAddresses]
-BondedECDSAKeepFactory = "0xb37c8696cD023c11357B37b5b12A9884c9C83784"
+BondedECDSAKeepFactory = "0x9F3B3bCED0AFfe862D436CB8FF462a454040Af80"
 
 [SanctionedApplications]
 Addresses = [
