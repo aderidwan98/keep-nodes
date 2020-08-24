@@ -1,0 +1,22 @@
+[ethereum]
+ URL = "wss://ropsten.infura.io/ws/v3/$INFURA_ID"
+ URLRPC = "https://ropsten.infura.io/v3/$INFURA_ID"
+
+ [ethereum.account]
+ Address = "$ETH_ADDRESS"
+ KeyFile = "/mnt/config/keep_wallet.json"
+
+ [ethereum.ContractAddresses]
+ KeepRandomBeaconOperator = "0xf417b31104631280adF9F6828ee19985BC299fdC"
+ TokenStaking = "0x8117632eC1D514550b3880Bc68F9AC1A76c9C67B"
+ KeepRandomBeaconService = "0xd83248e311DC2Ba0d2A051e86f0678d8857f6ADD"
+
+ [LibP2P]
+ Peers = ["/dns4/bootstrap-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf",
+"/dns4/bootstrap-2.test.keep.network/tcp/3919/ipfs/16Uiu2HAmNNuCp45z5bgB8KiTHv1vHTNAVbBgxxtTFGAndageo9Dp"]
+ Port = 3919
+
+ AnnouncedAddresses = ["/ip4/$SERVER_IP/tcp/3919"]
+
+[Storage]
+ DataDir = "/mnt/persistence"
