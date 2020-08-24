@@ -1,6 +1,6 @@
 [ethereum]
-URL = "/mnt/data/infura-ecdsa-id-wss.txt"
-URLRPC = "/mnt/data/infura-ecdsa-id-https.txt"
+URL = "/mnt/data/infura-ecdsa-id-wss"
+URLRPC = "/mnt/data/infura-ecdsa-id-https"
 
 [ethereum.account]
 Address = "/mnt/data/eth-address.txt"
