@@ -1,6 +1,6 @@
 [ethereum]
-URL = "wss://ropsten.infura.io/ws/v3/$INFURA_ECDSA_ID"
-URLRPC = "https://ropsten.infura.io/v3/$INFURA_ECDSA_ID"
+URL = "$INFURA_ECDSA_ID_WSS"
+URLRPC = "$INFURA_ECDSA_ID_HTTPS"
 
 [ethereum.account]
 Address = "$ETH_ADDRESS"
