@@ -4,7 +4,7 @@ URLRPC = "https://ropsten.infura.io/v3/$INFURA_ECDSA_ID"
 
 [ethereum.account]
 Address = "$ETH_ADDRESS"
-KeyFile = "/mnt/keep-nodes/data/keep_wallet.json"
+KeyFile = "/mnt/data/keep_wallet.json"
 
 [ethereum.ContractAddresses]
 BondedECDSAKeepFactory = "0xb37c8696cD023c11357B37b5b12A9884c9C83784"
@@ -15,7 +15,7 @@ Addresses = [
 ]
 
 [Storage]
-DataDir = "/mnt/keep-nodes/ecdsa/persistence"
+DataDir = "/mnt/ecdsa/persistence"
   
 [LibP2P]
 Peers = ["/dns4/ecdsa-2.test.keep.network/tcp/3919/ipfs/16Uiu2HAmNNuCp45z5bgB8KiTHv1vHTNAVbBgxxtTFGAndageo9Dp",	
