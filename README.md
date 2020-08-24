@@ -1,1 +1,2 @@
-# KEEP Beacon и ECDSA ноды.
+# EASY Installation KEEP Beacon and ECDSA nodes.
+
