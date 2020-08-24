@@ -1,1 +1,1 @@
-# keep-nodes-ru
+# KEEP Beacon и ECDSA ноды.
