@@ -4,7 +4,7 @@ URLRPC = "https://ropsten.infura.io/v3/$INFURA_BEACON_ID"
 
 [ethereum.account]
 Address = "$ETH_ADDRESS"
-KeyFile = "/mnt/beacon/keystore/keep_wallet.json"
+KeyFile = "/mnt/keep-nodes/keystore/keep_wallet.json"
 
 [ethereum.ContractAddresses]
 KeepRandomBeaconOperator = "0xf417b31104631280adF9F6828ee19985BC299fdC"
@@ -19,4 +19,4 @@ Port = 3919
 AnnouncedAddresses = ["/ip4/$SERVER_IP/tcp/3919"]
 
 [Storage]
-DataDir = "/mnt/beacon/persistence"
+DataDir = "/mnt/keep-nodes/beacon/persistence"
