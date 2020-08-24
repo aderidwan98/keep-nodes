@@ -1,5 +1,5 @@
 [ethereum]
-URL = "wss://ropsten.infura.io/v3/INFURA_ECDSA_ID"
+URL = "wss://ropsten.infura.io/ws/v3/INFURA_ECDSA_ID"
 URLRPC = "https://ropsten.infura.io/v3/INFURA_ECDSA_ID"
 
 [ethereum.account]
