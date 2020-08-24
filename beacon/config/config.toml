@@ -1,6 +1,6 @@
 [ethereum]
-URL = "cat $HOME/keep-nodes/data/infura-beacon-id-wss"
-URLRPC = "cat $HOME/keep-nodes/data/infura-beacon-id-https"
+URL = "wss://ropsten.infura.io/v3/INFURA_BEACON_ID"
+URLRPC = "https://ropsten.infura.io/v3/INFURA_BEACON_ID"
 
 [ethereum.account]
 Address = "/mnt/data/eth-address.txt"
