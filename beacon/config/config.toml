@@ -3,7 +3,7 @@ URL = "wss://ropsten.infura.io/ws/v3/$INFURA_BEACON_ID"
 URLRPC = "https://ropsten.infura.io/v3/$INFURA_BEACON_ID"
 
 [ethereum.account]
-Address = "/mnt/keep-nodes/data/eth-address.txt"
+Address = "$ETH_ADDRESS"
 KeyFile = "/mnt/keep-nodes/data/keep_wallet.json"
 
 [ethereum.ContractAddresses]
